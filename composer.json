@@ -1,5 +1,5 @@
 {
-    "name": "stanislav/home_2",
+    "name": "stanislav/home2",
     "description": "Homework number 2",
     "type": "library",
     "license": "MIT",
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "phpoffice/phpspreadsheet": "^1.10"
     },
     "autoload": {
         "psr-4": {
