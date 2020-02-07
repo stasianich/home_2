@@ -8,17 +8,17 @@ $pensionAge = 65;
 
 $employees = [];
 
-$employees[] = new classes\pensionFond();
+$employees[] = new classPension\pensionFond();
 $employees[0]->name = 'Vasya';
 $employees[0]->age = 36;
 $employees[0]->city = 'Kyiv';
 
-$employees[] = new classes\pensionFond();
+$employees[] = new classPension\pensionFond();
 $employees[1]->name = 'Petya';
 $employees[1]->age = 41;
 $employees[1]->city = 'Kyiv';
 
-$employees[] = new classes\pensionFond();
+$employees[] = new classPension\pensionFond();
 $employees[2]->name = 'Misha';
 $employees[2]->age = 23;
 
